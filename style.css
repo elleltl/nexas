@@ -25,7 +25,7 @@ body::before {
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom right;
-  opacity: 0.3; /* Set your desired opacity */
+  opacity: 0.1; /* Set your desired opacity */
   z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
