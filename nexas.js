@@ -2,7 +2,7 @@ var metadata = {
   "Alvyn Asher": {
     image: "img/alvyn.png",
   },
-  "Aurix ‘Rixxy’ Brightful": {
+  "Aurix Rixxy Brightful": {
     image: "img/rixxy.png",
   },
   "Bakurah Noir": {
@@ -26,7 +26,7 @@ var metadata = {
   "Endra Jiéshù": {
     image: "img/endra.png",
   },
-  “Esila Shephield”: {
+  "Esila Shephield": {
     image: "img/esila.png",
   },
   "Faelie Fallwood": {
@@ -41,10 +41,10 @@ var metadata = {
   "Kanami Kaito": {
     image: "img/kaito.png",
   },
-  “Kenzo Kozima”: {
+  "Kenzo Kozima": {
     image: "img/kenzo.png",
   },
-  “Kiko Hayashi”: {
+  "Kiko Hayashi": {
     image: "img/kiko.png",
   },
   "Kougami Harue": {
@@ -53,19 +53,19 @@ var metadata = {
   "Kyohei Tekma": {
     image: "img/kyohei.png",
   },
-  “Leobel Purson”: {
+  "Leobel Purson": {
     image: "img/leobel.png",
   },
-  “Lulu Lasso”: {
+  "Lulu Lasso": {
     image: "img/lulu.png",
   },
-  “Lumiora Lumen”: {
+  "Lumiora Lumen": {
     image: "img/lumi.png",
   },
   "Manon Merope": {
     image: "img/manon.png",
   },
-  “Melody Cordelia”: {
+  "Melody Cordelia": {
     image: "img/melody.png",
   },
   "Mia Fenimore": {
@@ -74,7 +74,7 @@ var metadata = {
   "Mizuki Akemi": {
     image: "img/mizuki.png",
   },
-  “Moka Roki”: {
+  "Moka Roki": {
     image: "img/moka.png",
   },
   "Momoko Nuihara": {
@@ -86,7 +86,7 @@ var metadata = {
   Nell: {
     image: "img/nell.png",
   },
-  “Noah Marcellios”: {
+  "Noah Marcellios": {
     image: "img/noah.png",
   },
   "Nowi Inari": {
@@ -98,19 +98,19 @@ var metadata = {
   "Nyantsume": {
     image: "img/nyantsume.png",
   },
-  “Odette Mori”: {
+  "Odette Mori": {
     image: "img/odette.png",
   },
-  “Osian W.D. Whitlock”: {
+  "Osian W.D. Whitlock": {
     image: "img/osian.png",
   },
-  “Perseus Mavros”: {
+  "Perseus Mavros": {
     image: "img/percy.png",
   },
   "Piko Halo": {
     image: "img/piko.png",
   },
-  “Poette Evergreen”: {
+  "Poette Evergreen": {
     image: "img/poette.png",
   },
   "Pyon Phelix": {
@@ -125,10 +125,10 @@ var metadata = {
   "Rov Alcou": {
     image: "img/rov.png",
   },
-  “Rune Atelier”: {
+  "Rune Atelier": {
     image: "img/rune.png",
   },
-  “Ruri Tinytale”: {
+  "Ruri Tinytale": {
     image: "img/ruri.png",
   },
   "Silas Ain": {
@@ -137,18 +137,19 @@ var metadata = {
   "Soma Fujimori": {
     image: "img/soma.png",
   },
-  “Sweet E. Hiroshi”: {
+  "Sweet E. Hiroshi": {
     image: "img/sweet.png",
   },
   "Terryn Shieldsong": {
     image: "img/terryn.png",
   },
-  “Vera Avantgarde”: {
+  "Vera Avantgarde": {
     image: "img/vera.png",
   },
-  “Wendy Wanderful”: {
+  "Wendy Wanderful": {
     image: "img/wendy.png",
   },
-  “Yukiko Yasashi”: {
+  "Yukiko Yasashi": {
     image: "img/yuki.png",
+  },
 };
