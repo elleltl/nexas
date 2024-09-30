@@ -258,6 +258,55 @@ function sortList(flag) {
   }
 }
 
+function createFakeAlbum() {
+  var album = {};
+  var albumMetadata = {};
+  var bonusTracks = [];
+  for (i = 0; i < namMember.length; i++) {
+    var title = namMember[lstMember[0][i]];
+    var trackNum = metadata[title].trackNumber;
+    if (!album[trackNum]) {
+      var border =
+        trackNum === 14
+          ? "border-style: solid; border-width: 1px 1px 3px 1px; border-color: black;"
+          : "border-style: solid; border-width: 1px; border-color: black;";
+      album[trackNum] = `
+        <tr>
+            <td style="${border} text-align:center; padding-right:5px;">
+            ${trackNum}
+            </td>
+            <td style="${border} padding-left:5px;">
+            ${title}
+            </td>
+            <td style="padding:0; width:50"><img width="50" height="50" src="${metadata[title].image}"/></td>
+        </tr>
+        `;
+      albumMetadata[trackNum] = {
+        title: title,
+        trackNumber: trackNum,
+        album: metadata[title].album,
+      };
+    } else if (bonusTracks.length < 4) {
+      bonusTracks.push(title);
+    }
+  }
+  for (const [_, value] of Object.entries(albumMetadata)) {
+    albumString += `${value.trackNumber}. ${value.title}\n`;
+  }
+  for (var i = 0; i < bonusTracks.length; i++) {
+    albumString += `Bonus Track ${i + 1}: ${bonusTracks[i]}\n`;
+  }
+
+function copyRankedSongsToClipboard() {
+  navigator.clipboard.writeText(rankedSongsString);
+  document.getElementById("songsCopyText").innerHTML = "Copied!";
+  document.getElementById("songsCopyText").disabled = true;
+  setTimeout(() => {
+    document.getElementById("songsCopyText").innerHTML = "Copy Text";
+    document.getElementById("songsCopyText").disabled = false;
+  }, 2000);
+}
+
 function showResult() {
   createFakeAlbum();
   var ranking = 1;
@@ -313,5 +362,3 @@ function toNameFace(n) {
   var str = namMember[n];
   return str;
 }
-
-
