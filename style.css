@@ -4,7 +4,7 @@
 }
 
 body {
-  /* background-image: url("img/hero-image_genesis_pc.png");
+  /* background-image: url("img/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
@@ -20,7 +20,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("img/hero-image_genesis_pc.png");
+  background-image: url("img/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
